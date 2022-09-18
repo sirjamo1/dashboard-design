@@ -46,6 +46,7 @@ ul li {
 
 ul li:hover {
     background-color: rgba(15, 14, 212, 255);
+    border-left: 3px solid white;
 }
 .sidebar h3 {
     padding-top: 0.5rem;
@@ -149,6 +150,10 @@ ul li:hover {
     box-shadow: 0px 2px 5px 0px rgba(166, 159, 159, 0.75);
     -webkit-box-shadow: 0px 2px 5px 0px rgba(166, 159, 159, 0.75);
     -moz-box-shadow: 0px 2px 5px 0px rgba(166, 159, 159, 0.75);
+}
+.projects .card:hover {
+
+background-color: rgba(220, 255, 255, 255);
 }
 .projects .card .text-div {
     grid-row: 1/2;
